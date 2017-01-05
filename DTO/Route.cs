@@ -13,5 +13,12 @@ namespace DTO.FerryContract
         public string Origin { get; private set; }
         public string Destination { get; private set; }
         public TimeSpan Duration { get; private set; }
+
+        public Route(string origin, string destination, TimeSpan duration)
+        {
+            Origin = origin;
+            Destination = destination;
+            Duration = duration;
+        }
     }
 }

@@ -11,5 +11,10 @@ namespace DTO.FerryContract
     {
         public int ID { get; private set; }
         public float Price { get; private set; }
+
+        public Ticket(float price)
+        {
+            Price = price;
+        }
     }
 }

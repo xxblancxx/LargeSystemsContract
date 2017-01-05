@@ -9,5 +9,10 @@ namespace FerryContract.ETO
     [Serializable]
     class WeightCapacityException : ArgumentOutOfRangeException
     {
+
+        public WeightCapacityException(string message) : base(message)
+        {
+
+        }
     }
 }

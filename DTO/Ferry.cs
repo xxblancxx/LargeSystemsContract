@@ -14,5 +14,13 @@ namespace DTO.FerryContract
         public int PeopleCapacity { get; private set; }
         public int VehicleCapacity { get; private set; }
         public int WeightCapacity { get; private set; }
+
+        public Ferry(string name, int peoplecap, int vehiclecap, int weightcap)
+        {
+            Name = name;
+            PeopleCapacity = peoplecap;
+            VehicleCapacity = vehiclecap;
+            WeightCapacity = weightcap;
+        }
     }
 }
