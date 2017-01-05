@@ -1,0 +1,5 @@
+D:\Projects\FerryContract\FerryContract\bin\Debug\FerryContract.dll
+D:\Projects\FerryContract\FerryContract\bin\Debug\FerryContract.pdb
+D:\Projects\FerryContract\FerryContract\obj\Debug\FerryContract.csprojResolveAssemblyReference.cache
+D:\Projects\FerryContract\FerryContract\obj\Debug\FerryContract.dll
+D:\Projects\FerryContract\FerryContract\obj\Debug\FerryContract.pdb
