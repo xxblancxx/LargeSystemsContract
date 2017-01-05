@@ -11,7 +11,10 @@ namespace DTO.FerryContract
     {
         public int ID { get; private set; }
         public bool IsLocal { get; private set; }
+        public Passenger()
+        {
 
+        }
         public Passenger(bool isLocal)
         {
             IsLocal = isLocal;

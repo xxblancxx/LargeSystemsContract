@@ -11,5 +11,9 @@ namespace DTO.FerryContract
     {
         public int ID { get; private set; }
 
+        public Vehicle()
+        {
+
+        }
     }
 }

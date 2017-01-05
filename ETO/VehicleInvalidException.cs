@@ -9,6 +9,10 @@ namespace FerryContract.ETO
     [Serializable]
     class VehicleInvalidException : ArgumentOutOfRangeException
     {
+        public VehicleInvalidException()
+        {
+
+        }
         public VehicleInvalidException(string message) : base(message)
         {
 

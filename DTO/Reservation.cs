@@ -12,7 +12,10 @@ namespace DTO.FerryContract
         public int ID { get; private set; }
         public int ReservationNumber { get; set; }
         public bool HasArrived { get; set; }
+        public Reservation()
+        {
 
+        }
         public Reservation(int reservationNumber, bool hasArrived)
         {
             ReservationNumber = reservationNumber;

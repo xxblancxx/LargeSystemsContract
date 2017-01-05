@@ -10,6 +10,10 @@ namespace FerryContract.ETO
     [Serializable]
     class VehicleCapacityException : ArgumentOutOfRangeException
     {
+        public VehicleCapacityException()
+        {
+
+        }
         public VehicleCapacityException(string message) : base(message)
         {
 

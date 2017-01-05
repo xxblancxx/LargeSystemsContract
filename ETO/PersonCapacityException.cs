@@ -9,6 +9,10 @@ namespace FerryContract.ETO
     [Serializable]
     class PersonCapacityException : ArgumentOutOfRangeException
     {
+        public PersonCapacityException()
+        {
+
+        }
         public PersonCapacityException(string message) : base(message)
         {
 

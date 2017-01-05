@@ -10,5 +10,9 @@ namespace DTO.FerryContract
     public class TravelEntity
     {
         public int ID { get; private set; }
+        public TravelEntity()
+        {
+
+        }
     }
 }
