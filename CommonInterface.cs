@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FerryContract
 {
-    interface CommonInterface
+  public  interface CommonInterface
     {
         /// <summary>
         /// Request the routes in the system.

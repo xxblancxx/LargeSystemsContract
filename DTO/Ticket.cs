@@ -11,6 +11,7 @@ namespace DTO.FerryContract
     {
         public int ID ;
         public float Price ;
+        public int Route;
         public Ticket()
         {
 
