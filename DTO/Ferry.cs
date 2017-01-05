@@ -9,11 +9,12 @@ namespace DTO.FerryContract
     [Serializable]
     public class Ferry
     {
-        public int ID { get; private set; }
-        public string Name { get; private set; }
-        public int PeopleCapacity { get; private set; }
-        public int VehicleCapacity { get; private set; }
-        public int WeightCapacity { get; private set; }
+       
+        public int ID ;
+        public string Name ;
+        public int PeopleCapacity ;
+        public int VehicleCapacity ;
+        public int WeightCapacity ;
         public Ferry()
         {
 

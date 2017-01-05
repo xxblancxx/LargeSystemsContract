@@ -9,7 +9,7 @@ namespace DTO.FerryContract
     [Serializable]
     public class Vehicle
     {
-        public int ID { get; private set; }
+        public int ID ;
 
         public Vehicle()
         {

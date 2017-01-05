@@ -9,8 +9,8 @@ namespace DTO.FerryContract
     [Serializable]
     public class Ticket
     {
-        public int ID { get; private set; }
-        public float Price { get; private set; }
+        public int ID ;
+        public float Price ;
         public Ticket()
         {
 

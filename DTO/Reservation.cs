@@ -9,7 +9,7 @@ namespace DTO.FerryContract
     [Serializable]
     public class Reservation
     {
-        public int ID { get; private set; }
+        public int ID ;
         public int ReservationNumber { get; set; }
         public bool HasArrived { get; set; }
         public Reservation()

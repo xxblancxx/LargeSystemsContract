@@ -9,8 +9,8 @@ namespace DTO.FerryContract
     [Serializable]
     public class Passenger
     {
-        public int ID { get; private set; }
-        public bool IsLocal { get; private set; }
+        public int ID ;
+        public bool IsLocal ;
         public Passenger()
         {
 

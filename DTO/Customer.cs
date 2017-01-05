@@ -9,9 +9,9 @@ namespace DTO.FerryContract
     [Serializable]
     public class Customer
     {
-        public int ID { get; private set; }
-        public string Name { get; private set; }
-        public string Email { get; private set; }
+        public int ID ;
+        public string Name ;
+        public string Email ;
         public Customer()
         {
 

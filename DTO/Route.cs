@@ -9,10 +9,10 @@ namespace DTO.FerryContract
     [Serializable]
     public class Route
     {
-        public int ID { get; private set; }
-        public string Origin { get; private set; }
-        public string Destination { get; private set; }
-        public TimeSpan Duration { get; private set; }
+        public int ID ;
+        public string Origin ;
+        public string Destination ;
+        public TimeSpan Duration ;
         public Route()
         {
 
